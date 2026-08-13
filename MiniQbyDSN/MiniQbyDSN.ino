@@ -191,9 +191,9 @@ void setup() {
   delay(50);
   frontRightServo.attach(D2);
   delay(50);
-  backLeftServo.attach(D5);
+  backLeftServo.attach(D3);
   delay(50);
-  backRightServo.attach(D6);
+  backRightServo.attach(D4);
 
   pinMode(ledLeft, OUTPUT);
   delay(50);
