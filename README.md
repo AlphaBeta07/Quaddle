@@ -1,25 +1,26 @@
 <div align="center">
-  <h1>🤖 MiniQ</h1>
+  <h1>🤖 Quaddle</h1>
   <p><strong>The World’s Simplest Quadruped Robot</strong></p>
   
   <p>
     <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" alt="Build passing"/>
     <img src="https://img.shields.io/badge/platform-ESP8266-blue?style=for-the-badge" alt="Platform Badge"/>
+    <img src="https://img.shields.io/badge/platform-ESP32-red?style=for-the-badge" alt="Platform Badge"/>
   </p>
 </div>
 
 <br />
 
-> **MiniQ** is a beginner-friendly, Wi-Fi-controlled quadruped robot powered by the ESP8266 (Wemos D1 Mini). Designed to be the "world's simplest" robot dog, it utilizes a 1-DOF (Degree of Freedom) design per leg, eliminating the need for complex inverse kinematics or heavy mathematics. The robot hosts its own web interface, allowing you to control it directly from a browser without installing any apps.
+> **Quaddle** is a beginner-friendly, Wi-Fi-controlled quadruped robot powered by the ESP8266 / ESP32 . Designed to be the "world's simplest" robot dog, it utilizes a 1-DOF (Degree of Freedom) design per leg, eliminating the need for complex inverse kinematics or heavy mathematics. The robot hosts its own web interface, allowing you to control it directly from a browser without installing any apps.
 
 ---
 
 ## 🌟 Features
 
-- 🛠️ **Simple Hardware:** Uses only 4 servos and common, cheap components.
-- 📶 **Wi-Fi Control:** Controlled via a mobile-friendly web interface hosted on the ESP8266.
-- 📱 **No App Required:** Works on any device with a modern web browser.
-- 🧩 **Easy Assembly:** Fully 3D printed with a snap-in design for servos.
+- **Simple Hardware:** Uses only 4 servos and common, cheap components.
+- **Wi-Fi Control:** Controlled via a mobile-friendly web interface hosted on the ESP8266 / ESP32.
+- **No App Required:** Works on any device with a modern web browser.
+- **Easy Assembly:** Fully 3D printed with a snap-in design for servos.
 
 ---
 
@@ -27,7 +28,7 @@
 
 | Component | Description / Specification |
 | :--- | :--- |
-| **Microcontroller** | Node MCU (ESP8266) |
+| **Microcontroller** | Node MCU (ESP8266) / ESP32 |
 | **Actuators** | 4x SG90 Micro Servos |
 | **Power** | 3.7V LiPo Battery |
 | **Charging** | TP4056 Charging Module (with battery protection) |
@@ -51,8 +52,8 @@ Here is the wiring diagram to help you connect all the components correctly:
 | :--- | :--- |
 | **Servo 1** | D1 |
 | **Servo 2** | D2 |
-| **Servo 3** | D3 |
-| **Servo 4** | D4 |
+| **Servo 3** | D5 |
+| **Servo 4** | D6 |
 
 ---
 
