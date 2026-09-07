@@ -2,8 +2,8 @@
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
+const char* ssid = "swami";
+const char* password = "swami@335";
 
 ESP8266WebServer server(80);
 
@@ -191,9 +191,9 @@ void setup() {
   delay(50);
   frontRightServo.attach(D2);
   delay(50);
-  backLeftServo.attach(D5);
+  backLeftServo.attach(D3);
   delay(50);
-  backRightServo.attach(D6);
+  backRightServo.attach(D4);
 
   pinMode(ledLeft, OUTPUT);
   delay(50);
