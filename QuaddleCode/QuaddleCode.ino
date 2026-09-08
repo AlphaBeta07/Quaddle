@@ -2,8 +2,8 @@
 #include <ESP8266WebServer.h>
 #include <Servo.h>
 
-const char* ssid = "swami";
-const char* password = "swami@335";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 ESP8266WebServer server(80);
 
