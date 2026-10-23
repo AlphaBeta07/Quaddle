@@ -8,6 +8,9 @@
     <img src="https://img.shields.io/badge/platform-ESP32-red?style=for-the-badge" alt="Platform Badge"/>
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" alt="License"/>
   </p>
+
+  <img src="Quaddle_Prototype/prototype-demo.gif" alt="Quaddle Walking Demo" width="540" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  <p><em>Quaddle physical prototype walking during testing</em></p>
 </div>
 
 <br />
@@ -18,6 +21,7 @@
 
 ## 📑 Table of Contents
 - [Features](#-features)
+- [Working Prototype & Video Demo](#-working-prototype--video-demo)
 - [Repository Structure](#-repository-structure)
 - [Bill of Materials (BOM)](#-bill-of-materials-bom)
 - [Circuit & Wiring](#-circuit--wiring)
@@ -39,16 +43,68 @@
 
 ---
 
+## 🤖 Working Prototype 
+
+Here is the physical assembled prototype of Quaddle in action:
+
+### 📸 Prototype Photos
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="Quaddle_Prototype/prototype-angle.jpg" alt="Quaddle Prototype Isometric View" width="100%" style="border-radius: 8px;"/>
+        <br/>
+        <b>Isometric Angle View</b>
+        <br/>
+        <sub>3D printed legs, micro servos & NodeMCU controller</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="Quaddle_Prototype/prototype-side.jpg" alt="Quaddle Prototype Side View" width="100%" style="border-radius: 8px;"/>
+        <br/>
+        <b>Side & Wiring View</b>
+        <br/>
+        <sub>Power harness, status LEDs & chassis mounting</sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="Quaddle_Prototype/prototype-front.jpg" alt="Quaddle Prototype Front View" width="100%" style="border-radius: 8px;"/>
+        <br/>
+        <b>Front Stance View</b>
+        <br/>
+        <sub>1-DOF leg design with mechanical linkages</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ### 🎥 Walking Demonstration Video
+
+Watch Quaddle walking on a flat surface while receiving motion commands over Wi-Fi:
+
+<div align="center">
+  <video src="Quaddle_Prototype/prototype-demo.mp4" controls="controls" width="600" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <a href="Quaddle_Prototype/prototype-demo.mp4">▶️ Watch / Download Demo Video (MP4)</a>
+  </video>
+  <p>
+    🔗 <em>Direct links:</em> 
+    <a href="Quaddle_Prototype/prototype-demo.mp4"><strong>Watch / Download MP4</strong></a> | 
+    <a href="Quaddle_Prototype/WhatsApp%20Video%202026-10-23%20at%209.44.37%20PM.mp4">Original Recording</a>
+  </p>
+</div>
+
+--- -->
+
 ## 📂 Repository Structure
 
 ```text
 Quaddle/
-├── QuaddleCode/        # Arduino source code (C++) for the ESP8266/ESP32.
-├── Quaddle_STL/        # 3D models (STL files) and Blender source files for printing the robot.
-├── QuaddleApp/         # Android application APK for controlling the robot.
+├── QuaddleCode/           # Arduino source code (C++) for the ESP8266/ESP32.
+├── Quaddle_STL/           # 3D models (STL files) and Blender source files for printing the robot.
+├── Quaddle_Prototype/     # Photos and video demonstration of the physical robot prototype.
+├── QuaddleApp/            # Android application APK for controlling the robot.
 ├── codeDirectWifi_v1.ino/ # Alternative Wi-Fi code (Direct AP mode).
-├── SchematicPro.png    # Circuit diagram for wiring components.
-└── README.md           # Project documentation.
+├── SchematicPro.png       # Circuit diagram for wiring components.
+└── README.md              # Project documentation.
 ```
 
 ---
